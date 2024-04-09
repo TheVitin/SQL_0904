@@ -17,7 +17,7 @@ WHERE `TIPO` = 'SÉRIE' AND `NOME` LIKE 'W%';
 --Soma da duração em minutos dos filmes do Brad Pitt que tenham a letra "e":
 SELECT SUM(`DURACAO_MINUTOS`) AS `Soma da Duração`
 FROM `ENTRETERIMENTO`
-WHERE `TIPO` = 'FILME' AND (`ATOR_PRINCIPAL` = 'Brad Pitt' OR `ATRIZ_PRINCIPAL` = 'Brad Pitt') AND `NOME` LIKE '%e%';
+WHERE `TIPO` = 'FILME' AND (`ATOR_PRINCIPAL` = 'Brad Pitt ') AND `NOME` LIKE '%e%';
 
 --Classificação da duração em minutos dos filmes do maior para o menor que começam com a letra "s":
 SELECT *
