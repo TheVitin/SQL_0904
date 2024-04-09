@@ -16,4 +16,4 @@ WHERE TIPO = 'SÉRIE';
 --Consulta para somar a duração em minutos dos filmes do Brad Pitt:
 SELECT SUM(DURACAO_MINUTOS) AS Duracao_Total_Brad_Pitt_Filmes
 FROM ENTRETERIMENTO
-WHERE (ATOR_PRINCIPAL = 'Brad Pitt' OR ATRIZ_PRINCIPAL = 'Brad Pitt') AND TIPO = 'FILME';
+WHERE (ATOR_PRINCIPAL = 'Brad Pitt' OR ATRIZ_PRINCIPAL = 'Brad Pitt ') AND TIPO = 'FILME';
